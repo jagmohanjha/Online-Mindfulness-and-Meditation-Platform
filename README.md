@@ -51,7 +51,7 @@ mindfulness/
 
 ---
 
-## 2. Core Java Concepts (10 Marks)
+## 2. Core Java Concepts 
 
 | Concept | Where it is Implemented |
 |---------|-------------------------|
@@ -66,7 +66,7 @@ mindfulness/
 
 ---
 
-## 3. Database Integration (JDBC) – 8 Marks
+## 3. Database Integration (JDBC) 
 
 - `DBConnection.java`: singleton helper that exposes `getConnection()` and `initializeSchema()` while hiding the JDBC URL and credentials.
 - DAOs only use `PreparedStatement` to avoid SQL injection.
@@ -79,7 +79,7 @@ mindfulness/
 
 ---
 
-## 4. Servlets & Web Integration – 7 Marks
+## 4. Servlets & Web Integration 
 
 - Servlet classes: `RegisterServlet` and `MindfulnessSessionServlet` (both annotated + declared in `web.xml`).
 - Each servlet calls the service layer to keep controllers thin.
@@ -142,5 +142,6 @@ Indexes and FK constraints are defined inside `schema.sql`.
 ---
 
 ## Contact
+
 
 For questions ping `support@guvi.com`.
