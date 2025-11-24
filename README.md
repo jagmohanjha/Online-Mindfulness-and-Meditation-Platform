@@ -455,3 +455,75 @@ MIT License
 ## Contact
 
 For support or questions, please contact the development team.
+#code:
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<modelVersion>4.0.0</modelVersion>
+<groupId>com.guvi</groupId>
+<artifactId>mindfulness-platform</artifactId>
+<version>1.0.0</version>
+<name>Mindfulness Platform - Core Java + Servlets</name>
+<description>Mindfulness and meditation backend showing Core Java, JDBC, and Servlet concepts</description>
+<packaging>war</packaging>
+<properties>
+<maven.compiler.source>17</maven.compiler.source>
+<maven.compiler.target>17</maven.compiler.target>
+<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<failOnMissingWebXml>false</failOnMissingWebXml>
+</properties>
+<dependencies>
+<!--  JDBC driver  -->
+<dependency>
+<groupId>com.mysql</groupId>
+<artifactId>mysql-connector-j</artifactId>
+<version>8.3.0</version>
+</dependency>
+<!--  Servlet API  -->
+<dependency>
+<groupId>jakarta.servlet</groupId>
+<artifactId>jakarta.servlet-api</artifactId>
+<version>6.0.0</version>
+<scope>provided</scope>
+</dependency>
+<!--  JSTL (optional - useful if UI is added later)  -->
+<dependency>
+<groupId>jakarta.servlet.jsp.jstl</groupId>
+<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+<version>3.0.0</version>
+</dependency>
+<dependency>
+<groupId>org.glassfish.web</groupId>
+<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+<version>3.0.1</version>
+</dependency>
+<!--  Test utilities  -->
+<dependency>
+<groupId>org.junit.jupiter</groupId>
+<artifactId>junit-jupiter</artifactId>
+<version>5.10.2</version>
+<scope>test</scope>
+</dependency>
+</dependencies>
+<build>
+<finalName>mindfulness-platform</finalName>
+<plugins>
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-compiler-plugin</artifactId>
+<version>3.11.0</version>
+<configuration>
+<source>${maven.compiler.source}</source>
+<target>${maven.compiler.target}</target>
+</configuration>
+</plugin>
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-war-plugin</artifactId>
+<version>3.4.0</version>
+<configuration>
+<failOnMissingWebXml>false</failOnMissingWebXml>
+</configuration>
+</plugin>
+</plugins>
+</build>
+</project>
