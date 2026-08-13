@@ -145,8 +145,8 @@ Indexes and FK constraints are defined inside `schema.sql`.
 
 | Avatar | Contributor | Role | GitHub Profile |
 |--------|-------------|------|----------------|
-| 👨‍💻 | **jagmohan jha ** | JDBC Integration, Servlets, Database Tables | [![GitHub](https://img.shields.io/badge/GitHub-Divyankar-blue?style=flat&logo=github)](https://github.com/Divyankar7) |
-| ⚙️ | **divyanker** |Project Overview & Core Java Concepts | [![GitHub](https://img.shields.io/badge/GitHub-jagmohan--jha-blue?style=flat&logo=github)](https://github.com/jagmohanjha) |
+| 👨‍💻 | **jagmohan jha ** | JDBC Integration, Servlets, Database Tables | [![GitHub](https://img.shields.io/badge/GitHub-jagmohan--jha-blue?style=flat&logo=github)](https://github.com/jagmohanjha) |
+| ⚙️ | **divyanker** |Project Overview & Core Java Concepts | [![GitHub](https://img.shields.io/badge/GitHub-Divyankar-blue?style=flat&logo=github)](https://github.com/Divyankar7) |
 | 💻 | **Atul Chaudhary** |Environment Setup,Testing,Future Enhancements | [![GitHub](https://img.shields.io/badge/GitHub-Atul--Chaudhary-blue?style=flat&logo=github)](https://github.com/labsilk85-art) |
 
 ## Project Evaluation & Implementation Guidelines
